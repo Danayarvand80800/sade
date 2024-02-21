@@ -1,0 +1,593 @@
+body {
+    font-family: vazir;
+    background-color: gray;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.sarg {
+    direction: rtl;
+    background-color: rgb(59, 59, 59);
+    height: 100px; 
+}
+
+.menu {
+    display: none;
+}
+
+.dana {
+    border-radius: 10px;
+    background-color: rgb(95, 95, 95);
+    height: 270px;
+    width: 170px;
+}
+
+.aks {
+    border-radius: 10px;
+    width: 50%;
+}
+
+.mtn {
+    font-family: vazir;
+    margin-right: 18px;
+    color: white;
+    direction: rtl;
+    font-size: 12px;
+}
+
+.sarsef {
+    margin-right: 3%;
+    color: white;
+    padding-bottom: 16px;
+    direction: rtl;
+    font-family: vazir;
+    font-size: 17px;
+    border-bottom: solid 1px;
+}
+
+.logot {
+    display: none;
+}
+
+.mttn {
+    direction: rtl;
+    margin-top: 33px;
+    margin-right: 4%;
+    display: inline-block;
+    font-size: 17px;
+    color: white;
+}
+
+header {
+    display: inline-block;
+    font-size: 13
+    px;
+    margin-right: 5px;
+    color: white;
+}
+
+a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.search-box {
+    width: 30%;
+    height: 25%;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: rgb(172, 172, 172);
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    direction: rtl;
+    margin-right: 2%;
+}
+
+.search-button {
+    width: 30px;   
+    height: 30px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(53, 53, 53);
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+
+.search-input {
+    font-family: vazir;
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    width: 90%;
+    background-color: transparent;
+    border: none;
+}
+
+.saig {
+    margin-right: 5px;
+    width: 15px;
+}
+
+.tabliqat {
+    color: black;
+    box-shadow: 0px 0px 10px 0px;
+    margin-top: 31px;
+    margin-left: 60px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.mtnn {
+    border-radius: 5px;
+    background-color: rgb(66, 66, 66);
+    direction: rtl;
+    font-size: 12px;
+    color: white;
+    padding: 5px 10px 5px 50px;
+    margin: -6px 119px 0px 6px;
+}
+
+.akh {
+    text-align: right;
+}
+
+@media screen and (min-width:769px) and (max-width:2560px) {
+    body {
+        font-family: vazir;
+        background-color: gray;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .mmenu {
+        display: none;
+    }
+    
+    .sarg {
+        direction: rtl;
+        background-color: rgb(59, 59, 59);
+        height: 100px; 
+    }
+    
+    .dana {
+        border-radius: 10px;
+        background-color: rgb(95, 95, 95);
+        height: 270px;
+        width: 170px;
+    }
+    
+    .aks {
+        border-radius: 10px;
+        width: 50%;
+        margin: 18px 0px 0px 17px;
+    }
+    
+    .mtn {
+        text-shadow: 0px 0px 3px black;
+        font-family: vazir;
+        margin-right: 18px;
+        color: white;
+        direction: rtl;
+        font-size: 12px;
+    }
+    
+    .sarsef {
+        text-shadow: 0px 0px 3px black;
+        margin-right: 3%;
+        color: white;
+        padding-bottom: 16px;
+        direction: rtl;
+        font-family: vazir;
+        font-size: 17px;
+        border-bottom: solid 1px;
+    }
+    
+    .logot {
+        display: none;
+    }
+    
+    .mttn {
+        direction: rtl;
+        margin-top: 33px;
+        margin-right: 2%;
+        display: inline-block;
+        font-size: 17px;
+        color: white;
+    }
+    
+    header {
+        display: inline-block;
+        font-size: 13
+        px;
+        margin-right: 5px;
+        color: white;
+    }
+    
+    a {
+        font-size: 15px;
+        margin-right: 9px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+    
+    .search-box {
+        width: 15%;
+        height: 25%;
+        padding: 4px;
+        border-radius: 5px;
+        background-color: rgb(172, 172, 172);
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: center;
+        direction: rtl;
+        margin-right: 2%;
+    }
+    
+    .search-button {
+        width: 30px;   
+        height: 30px;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        background-color: rgb(53, 53, 53);
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+    }
+    
+    .search-input {
+        font-family: vazir;
+        font-weight: 700;
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+        width: 90%;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .saig {
+        margin-right: 5px;
+        width: 15px;
+    }
+    
+    .tabliqat {
+        color: black;
+        box-shadow: 0px 0px 10px 0px;
+        margin-top: 31px;
+        margin-left: 60px;
+        width: 90%;
+        border-radius: 10px;
+    }
+    
+    .mtnn {
+        border-radius: 5px;
+        background-color: rgb(66, 66, 66);
+        direction: rtl;
+        font-size: 12px;
+        color: white;
+        padding: 5px 10px 5px 50px;
+        margin: -6px 119px 0px 6px;
+    }
+    
+    .akh {
+        text-align: right;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:768px) {
+    body {
+        font-family: vazir;
+        background-color: gray;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .sarg {
+        direction: rtl;
+        background-color: rgb(59, 59, 59);
+        height: 100%;
+        width: 100%; 
+    }
+    
+    .dana {
+        border-radius: 10px;
+        background-color: rgb(95, 95, 95);
+        height: 149px;
+        width: 82px;
+        box-shadow: 0px 0px 5px;
+    }
+
+    .menu {
+        border: solid 1px gray;
+        padding: 2px;
+        margin-left: 4px;
+        display: inline-block;
+        width: 16px;
+    }
+    
+    .aks {
+        border-radius: 10px;
+        width: 50%;
+        margin: 7px 0px 0px 10px;
+    }
+    
+    .mtn {
+        text-shadow: 0px 0px 3px black;
+        font-family: vazir;
+        margin-right: 6px;
+        color: white;
+        direction: rtl;
+        font-size: 7px;
+    }
+    
+    .sarsef {
+        text-shadow: 0px 0px 3px black;
+        margin-right: 2%;
+        color: white;
+        padding-bottom: 16px;
+        direction: rtl;
+        font-family: vazir;
+        font-size: 12px;
+        border-bottom: solid 1px;
+    }
+    
+    .logot {
+        display: none;
+    }
+    
+    .mttn {
+        margin: 17px 10px 17px 0px;
+        direction: rtl;
+        margin-right: 4%;
+        display: inline-block;
+        font-size: 15px;
+        color: white;
+    }
+    
+    header {
+        display: none;
+    }
+    
+    a {
+        margin-right: 12px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+    
+    .search-box {
+        width: 36%;
+        height: 25%;
+        padding: 4px;
+        border-radius: 5px;
+        background-color: rgb(172, 172, 172);
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: center;
+        direction: rtl;
+        margin-right: 2%;
+    }
+    
+    .search-button {
+        width: 30px;   
+        height: 30px;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        background-color: rgb(53, 53, 53);
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+    }
+    
+    .search-input {
+        font-family: vazir;
+        font-weight: 700;
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+        width: 90%;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .saig {
+        margin-right: 5px;
+        width: 15px;
+    }
+    
+    .tabliqat {
+        color: black;
+        box-shadow: 0px 0px 10px 0px;
+        margin-top: 31px;
+        margin-left: 15px;
+        width: 92%;
+        border-radius: 10px;
+    }
+    
+    .mtnn {
+        border-radius: 5px;
+    background-color: rgb(66, 66, 66);
+    direction: rtl;
+    font-size: 7px;
+    color: white;
+    padding: 4px 7px 4px 29px;
+    margin: 0px 100px 0px 4px;
+    }
+    
+    .akh {
+        text-align: right;
+    }
+
+    .mmenu {
+    color: white;
+    margin-right: 3%;
+    direction: ltr;
+    font-size: 13px;
+    display: inline-flex
+    }
+}
+
+@media screen and (min-width:10px) and (max-width:320px) {
+    body {
+        font-family: vazir;
+        background-color: gray;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .sarg {
+        direction: rtl;
+        background-color: rgb(59, 59, 59);
+        height: 100%;
+        width: 113%; 
+    }
+    
+    .dana {
+        border-radius: 10px;
+        background-color: rgb(95, 95, 95);
+        height: 135px;
+        width: 77px;
+    }
+
+    .menu {
+        border: solid 1px gray;
+        padding: 2px;
+        margin-left: 4px;
+        display: inline-block;
+        width: 16px;
+    }
+    
+    .aks {
+        border-radius: 10px;
+        width: 50%;
+        margin: 7px 0px 0px 8px;
+    }
+    
+    .mtn {
+        font-family: vazir;
+        margin-right: 6px;
+        color: white;
+        direction: rtl;
+        font-size: 6px;
+    }
+    
+    .sarsef {
+        text-shadow: 0px 0px 3px black;
+        margin-right: -8%;
+        color: white;
+        padding-bottom: 5px;
+        direction: rtl;
+        font-family: vazir;
+        font-size: 10px;
+        border-bottom: solid 1px;
+    }
+    
+    .logot {
+        display: none;
+    }
+    
+    .mttn {
+        margin: 17px 10px 17px 0px;
+        direction: rtl;
+        margin-right: 4%;
+        display: inline-block;
+        font-size: 15px;
+        color: white;
+    }
+    
+    header {
+        display: none;
+    }
+    
+    a {
+        margin-right: 12px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+    
+    .search-box {
+        width: 36%;
+        height: 25%;
+        padding: 4px;
+        border-radius: 5px;
+        background-color: rgb(172, 172, 172);
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: center;
+        direction: rtl;
+        margin-right: 2%;
+    }
+    
+    .search-button {
+        width: 30px;   
+        height: 30px;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        background-color: rgb(53, 53, 53);
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+    }
+    
+    .search-input {
+        font-family: vazir;
+        font-weight: 700;
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+        width: 90%;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .saig {
+        margin-right: 5px;
+        width: 15px;
+    }
+    
+    .tabliqat {
+        color: black;
+        box-shadow: 0px 0px 10px 0px;
+        margin-top: 31px;
+        margin-left: 30px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .mtnn {
+        border-radius: 5px;
+        background-color: rgb(66, 66, 66);
+        direction: rtl;
+        font-size: 5px;
+        color: white;
+        padding: 5px 7px 5px 24px;
+        margin: 0px 119px 0px 4px;
+    }
+    
+    .akh {
+        text-align: right;
+    }
+
+    .mmenu {
+    color: white;
+    margin-right: 3%;
+    direction: ltr;
+    font-size: 13px;
+    display: inline-flex
+    }
+}
